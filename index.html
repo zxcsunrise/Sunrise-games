@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="ru" class="scroll-smooth focus:scroll-auto">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sunrise Games</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+</head>
+
+<body class="bg-pink-50 text-gray-800 " style="font-family: 'Inter', sans-serif;">
+
+    <header class="shadow fixed top-0 left-0 right-0 blur" style="background-color: rgba(251, 207, 233, 0.9);">
+        <div class="container mx-auto flex flex-wrap justify-between items-center p-5 gap-5">
+            <h1 class="text-2xl font-bold text-pink-500">Sunrise Games</h1>
+            <nav>
+                <ul class="flex gap-5 transition-all flex-wrap">
+                    <li><a href="#hero" class="hover:text-pink-500">Главная</a></li>
+                    <li><a href="#advantages" class="hover:text-pink-500">Преимущества</a></li>
+                    <li><a href="#testimonials" class="hover:text-pink-500">Отзывы</a></li>
+                    <li><a href="#pricing" class="hover:text-pink-500">Цены</a></li>
+                    <li><a href="#contact" class="hover:text-pink-500">Контакты</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section id="hero" class="h-screen flex items-center justify-center bg-gradient-to-r from-pink-300 to-pink-500">
+            <div class="text-center px-4">
+                <h1 class="text-5xl font-bold mb-4">Добро пожаловать в мир магии игр <br> Sunrise!</h1>
+                <p class="text-lg mb-8">Откройте новые горизонты с нашими удивительными игровыми решениями.</p>
+                <a href="#pricing" class="bg-white text-pink-500 px-6 py-3 rounded-full text-lg font-semibold hover:text-white hover:bg-pink-500 transition-all">Купить сейчас</a>
+            </div>
+        </section>
+
+        <section id="advantages" class="py-20">
+            <div class="container mx-auto text-center px-4">
+                <h2 class="text-4xl font-bold mb-10">Преимущества наших игр</h2>
+                <ul class="grid grid-cols-1 lg:grid-cols-3 gap-10">
+                    <li class="bg-white rounded-lg shadow-lg p-5 flex justify-center flex-col items-center gap-10">
+                        <h3 class="text-2xl font-bold">Интуитивный интерфейс</h3>
+                        <svg width="60" height="60" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M0.666667 0.666667H59.3333V59.3333H0.666667V0.666667ZM6 20.816V54H54V20.816H6ZM54 15.4827V6H6V15.4827H54ZM14 27.3333H19.344V32.6773H14V27.3333ZM24.6667 27.3333H30.0107V32.6773H24.6667V27.3333ZM35.3333 27.3333H40.6773V32.6773H35.3333V27.3333Z" fill="black"/>
+                        </svg>                            
+                        <p>Легкий и понятный интерфейс для всех пользователей.</p>
+                    </li>
+                    <li class="bg-white rounded-lg shadow-lg p-5 flex justify-center flex-col items-center gap-10">
+                        <h3 class="text-2xl font-bold">Качественная графика</h3>
+                        <svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M5.33334 18.6667V22.6667H8.00001V45.3333H12V18.6667H5.33334ZM16 18.6667V42.6667H18.6667V45.3333H37.3333V42.6667H58.6667V18.6667H16ZM46.6667 24C48.4348 24 50.1305 24.7024 51.3807 25.9526C52.631 27.2029 53.3333 28.8986 53.3333 30.6667C53.3333 32.4348 52.631 34.1305 51.3807 35.3807C50.1305 36.631 48.4348 37.3333 46.6667 37.3333C44.8986 37.3333 43.2029 36.631 41.9526 35.3807C40.7024 34.1305 40 32.4348 40 30.6667C40 28.8986 40.7024 27.2029 41.9526 25.9526C43.2029 24.7024 44.8986 24 46.6667 24Z" fill="black"/>
+                        </svg>                                                        
+                        <p>Уникальный визуальный стиль, погружающий в атмосферу игры..</p>
+                    </li>
+                    <li class="bg-white rounded-lg shadow-lg p-5 flex justify-center flex-col items-center gap-10">
+                        <h3 class="text-2xl font-bold">Мультиплеерный режим</h3>
+                        <svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <g clip-path="url(#clip0_6_7)">
+                            <path d="M31.8222 30.7556C36.6222 30.7556 40.3556 26.8444 40.3556 22.0444C40.3556 17.2444 36.4444 13.5111 31.6444 13.5111C26.8444 13.5111 23.1111 17.4222 23.1111 22.0444C23.1111 26.8444 27.0222 30.7556 31.8222 30.7556ZM31.6444 17.0667C31.8222 17.0667 31.8222 17.0667 31.6444 17.0667C34.4889 17.0667 36.8 19.3778 36.8 22.2222C36.8 25.0667 34.4889 27.2 31.6444 27.2C28.8 27.2 26.6667 24.8889 26.6667 22.2222C26.6667 19.3778 28.9778 17.0667 31.6444 17.0667Z" fill="black"/>
+                            <path d="M58.1333 29.6889C54.7555 26.6667 50.3111 25.0667 45.6889 25.2444H44.2667C43.9111 26.6667 43.3778 27.9111 42.6667 28.9778C43.7333 28.8 44.6222 28.8 45.6889 28.8C49.0667 28.6222 52.4444 29.6889 55.1111 31.6444V44.4444H58.6667V30.2222L58.1333 29.6889Z" fill="black"/>
+                            <path d="M41.6 13.8667C42.4889 11.7333 44.9778 10.6667 47.2889 11.5556C49.4222 12.4444 50.4889 14.9333 49.6 17.2444C48.8889 18.8444 47.2889 19.9111 45.6889 19.9111C45.3333 19.9111 44.8 19.9111 44.4444 19.7333C44.6222 20.6222 44.6222 21.5111 44.6222 22.2222V23.2889C44.9778 23.2889 45.3333 23.4667 45.6889 23.4667C50.1333 23.4667 53.6889 19.9111 53.6889 15.6444C53.6889 11.2 50.1333 7.64445 45.8667 7.64445C43.0222 7.64445 40.5333 9.06667 39.1111 11.5556C40 12.0889 40.8889 12.8 41.6 13.8667Z" fill="black"/>
+                            <path d="M21.3333 29.1555C20.6222 28.0889 20.0889 26.8444 19.7333 25.4222H18.3111C13.6889 25.2444 9.24445 26.8444 5.86668 29.6889L5.33334 30.2222V44.4444H8.8889V31.6444C11.7333 29.6889 14.9333 28.6222 18.3111 28.8C19.3778 28.8 20.4445 28.9778 21.3333 29.1555Z" fill="black"/>
+                            <path d="M18.3111 23.2889C18.6667 23.2889 19.0222 23.2889 19.3778 23.1111V22.0444C19.3778 21.1556 19.3778 20.2667 19.5556 19.5556C19.2 19.7333 18.6667 19.7333 18.3111 19.7333C16 19.7333 14.0445 17.7778 14.0445 15.4667C14.0445 13.1556 16 11.2 18.3111 11.2C20.0889 11.2 21.6889 12.2667 22.4 13.8667C23.1111 12.9778 24.1778 12.0889 25.0667 11.3778C22.7556 7.64444 17.9556 6.4 14.2222 8.71111C10.4889 11.0222 9.24446 15.8222 11.5556 19.5556C12.9778 21.8667 15.4667 23.2889 18.3111 23.2889Z" fill="black"/>
+                            <path d="M46.4 40.3556L46.0444 39.8222C42.4889 35.9111 37.5111 33.6 32.1778 33.7778C26.8444 33.6 21.6889 35.9111 18.1333 39.8222L17.7778 40.3556V53.8667C17.7778 55.4667 19.0222 56.8889 20.8 56.8889H43.5555C45.1555 56.8889 46.5778 55.4667 46.5778 53.8667V40.3556H46.4ZM42.8444 53.3333H21.3333V41.6C24.1778 38.7556 28.0889 37.3333 32.1778 37.3333C36.0889 37.1556 40 38.7556 42.8444 41.6V53.3333Z" fill="black"/>
+                            </g>
+                            <defs>
+                            <clipPath id="clip0_6_7">
+                            <rect width="64" height="64" fill="white"/>
+                            </clipPath>
+                            </defs>
+                            </svg>                                                    
+                        <p>Играйте с друзьями в любое время и в любом месте!</p>
+                    </li>
+                </ul>
+            </div>
+        </section>
+    
+        <section id="testimonials" class="py-20 bg-pink-100">
+            <div class="container mx-auto text-center px-4">
+                <h2 class="text-4xl font-bold mb-10">Довольные клиенты</h2>
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-10">
+                    <div>
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTDkaFZYmrtoOguvFkz_OPw2rawIm8FuXXAiQ&s" class="rounded-full w-24 h-24 mx-auto mb-2 object-cover" alt="">
+                        <h3 class="font-bold">Анна Петрова</h3>
+                        <p class="italic">&quot;Это лучшее, что я когда-либо играла!&quot;</p>
+                    </div>
+                    <div>
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRugL7ED_GAJbjXM73T8Vc0INjTwRSHnOq7gA&s" class="rounded-full w-24 h-24 mx-auto mb-2 object-cover" alt="">
+                        <h3 class="font-bold">Иван Сидоров</h3>
+                        <p class="italic">&quot;Невероятный опыт, который стоит попробовать.&quot;</p>
+                    </div>
+                    <div>
+                        <img src="https://imageio.forbes.com/specials-images/imageserve/5f9a0679ca21fdb232d2768d/Ten-Career-Tips-for-Every-Working-Woman/960x0.jpg?format=jpg&width=960" class="rounded-full w-24 h-24 mx-auto mb-2 object-cover" alt="">
+                        <h3 class="font-bold">Мария Смирнова</h3>
+                        <p class="italic">&quot;Не могу остановиться играть!&quot;</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    
+        <section class="py-20">
+            <div class="container mx-auto text-center px-4">
+                <h2 class="text-4xl font-bold mb-10">Посмотрите, как это работает</h2>
+                <div class="video rounded-lg">
+                    <iframe class="w-full h-96" src="https://www.youtube.com/embed/lE-hqURqf6A?si=ITa9Fb2xfVLHcEpi&amp;controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <p class="mt-4">Смотрите наш видеоролик о том, как играть.</p>
+            </div>
+        </section>
+    
+        <section class="py-20 bg-pink-100">
+            <div class="container mx-auto text-center px-4 flex flex-col gap-5 items-center justify-center">
+                <h2 class="text-4xl font-bold mb-5">Наши достижения</h2>
+                <div class="flex flex-col gap-2">
+                    <span class="text-3xl text-pink-500 font-bold">100,000+</span>
+                    <p class="text-xl" >счастливых игроков</p>
+                </div>
+                <div class="flex flex-col gap-2">
+                    <span class="text-3xl text-pink-500 font-bold">10 наград</span>
+                    <p class="text-xl" >в индустрии игр</p>
+                </div>
+                <div class="flex flex-col gap-2">
+                    <span class="text-3xl text-pink-500 font-bold">Сертификаты соответствия</span>
+                </div>
+            </div>
+        </section>
+    
+        <section id="pricing" class="py-20">
+            <div class="container mx-auto text-center px-4">
+                <h2 class="text-4xl font-bold mb-10">Цены и пакеты</h2>
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-10">
+                    <div class="bg-white rounded-lg shadow-lg p-5">
+                        <h3 class="text-2xl font-bold mb-2">Базовый пакет</h3>
+                        <p class="text-xl font-semibold">$19.99 в месяц</p>
+                        <p>Ограниченный доступ к играм.</p>
+                        <a href="#" class="bg-pink-300 text-white px-4 py-2 rounded mt-5 flex items-center justify-center hover:text-pink-300 hover:bg-pink-100 transition-all">Выбрать</a>
+                    </div>
+                    <div class="bg-white rounded-lg shadow-lg p-5">
+                        <h3 class="text-2xl font-bold mb-2">Стандартный пакет</h3>
+                        <p class="text-xl font-semibold">$29.99 в месяц</p>
+                        <p>Доступ ко всем играм.</p>
+                        <a href="#" class="bg-pink-300 text-white px-4 py-2 rounded mt-5 flex items-center justify-center hover:text-pink-300 hover:bg-pink-100 transition-all">Выбрать</a>
+                    </div>
+                    <div class="bg-white rounded-lg shadow-lg p-5">
+                        <h3 class="text-2xl font-bold mb-2">Премиум пакет</h3>
+                        <p class="text-xl font-semibold">$39.99 в месяц</p>
+                        <p>Доступ ко всем играм и эксклюзивному контенту.</p>
+                        <a href="#" class="bg-pink-300 text-white px-4 py-2 rounded mt-5 flex items-center justify-center hover:text-pink-300 hover:bg-pink-100 transition-all">Выбрать</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    
+        <section class="py-20 bg-pink-300">
+            <div class="container mx-auto text-center px-4">
+                <h2 class="text-4xl font-bold mb-4">Готовы начать играть?</h2>
+                <p class="text-lg mb-8">Присоединяйтесь к нам и станьте частью игрового сообщества!</p>
+                <a href="#" class="bg-white text-pink-500 px-6 py-3 rounded-full text-lg font-semibold hover:text-white hover:bg-pink-500 transition-all">Записаться на консультацию</a>
+            </div>
+        </section>
+    
+        <section class="py-20">
+            <div class="container mx-auto text-center px-4">
+                <h2 class="text-4xl font-bold mb-10">Оставьте заявку на входящие новости</h2>
+                <form action="#" method="post" class="flex flex-col items-center">
+                    <input type="email" name="email" placeholder="Email" class="border border-gray-300 rounded p-2 mb-4 w-72" required>
+                    <button type="submit" class="bg-pink-300 text-white px-4 py-2 rounded hover:text-pink-500 hover:bg-white transition-all">Подписаться</button>
+                </form>
+            </div>
+        </section>
+    
+        <section id="contact" class="py-20 bg-pink-100 text-center">
+            <h2 class="text-4xl font-bold mb-10">Контакты</h2>
+            <p>Телефон: +7 (999) 999-99-99</p>
+            <p>Email: sunrise@games.com</p>
+            <p>Следите за нами в социальных сетях:</p>
+            <div class="flex justify-center space-x-4 mt-4">
+                <a href="#" class="text-pink-500">Facebook</a>
+                <a href="#" class="text-pink-500">Instagram</a>
+                <a href="#" class="text-pink-500">Twitter</a>
+            </div>
+        </section>
+    
+        <section class="py-20">
+            <div class="container mx-auto text-center">
+                <h2 class="text-4xl font-bold mb-10">Часто задаваемые вопросы</h2>
+                <div>
+                    <h3 class="text-xl font-semibold">Какой пакет выбрать?</h3>
+                    <p>Выберите пакет в зависимости от ваших нужд и предпочтений.</p>
+                </div>
+                <div class="mt-4">
+                    <h3 class="text-xl font-semibold">Есть ли бесплатный пробный период?</h3>
+                    <p>Да, мы предлагаем 14-дневный бесплатный пробный период!</p>
+                </div>
+            </div>
+        </section>
+    </main>
+    
+    <footer class="py-10 bg-pink-200 text-center">
+        <p>&copy; 2023 Все права защищены.</p>
+        <p>
+            <a href="#" class="text-pink-500">Политика конфиденциальности</a> |
+            <a href="#" class="text-pink-500">Условия использования</a>
+        </p>
+    </footer>
+
+</body>
+</html>
